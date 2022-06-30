@@ -21,6 +21,9 @@ nav{
     justify-content: space-between;
     padding: 5px 10px;
     box-shadow: 0px 0px 6px #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .nav-left{
@@ -85,4 +88,84 @@ nav{
     margin: 0 1px;
     border-radius: 50%;
     background: white;
+}
+.left{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.left:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.left h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.left i{
+    font-size: xx-large;
+}
+.messageSender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+.msgTop{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+.msgTop form{
+    flex: 1;
+    display: flex;
+}
+.msgTop form input{
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+.msgBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.msgOption{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+.msgOption h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+.msgOption:hover{
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+}
+.middle{
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
 }
