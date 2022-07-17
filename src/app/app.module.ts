@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { RightSideComponent } from './right-side/right-side.component';
 import { LeftSideComponent } from './left-side/left-side.component';
 import { ProfileComponent } from './profile/profile.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ProfileComponent } from './profile/profile.component';
     AppComponent,
     RightSideComponent,
     LeftSideComponent,
-    ProfileComponent
+    ProfileComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,119 @@
+<nav>
+    <div class="nav-left">
+  
+      <div class="fb"><i class="fa-brands fa-facebook" style='color: #4267B2;'></i></div>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search Facebook">
+      </div>
+    </div>
+    <div class="nav-mid">
+    <a href="" class="icon">
+      <i class="fa-solid fa-house"></i>
+    </a>
+    <a href="" class="icon">
+      <i class="fa-solid fa-tv"></i>
+    </a>
+    <a href="" class="icon">
+      <i class="fa-solid fa-store"></i>
+    </a>
+    <a href="" class="icon">
+      <i class="fa-solid fa-people-group"></i>
+    </a>
+    <a href="" class="icon">
+      <i class="fa-brands fa-fantasy-flight-games"></i>
+    </a>
+    </div>
+    <div class="nav-right">
+      
+      <div class="buttons">
+        <a href=""><i class="fa-solid fa-bars" ></i></a>
+        <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href=""><i class="fa-solid fa-bell"></i></a>
+        <a routerLink="/Profile"><img class="user_avatar" src="assets/img/avatar.png"></a>
+      </div>
+    </div>
+  </nav>
+       <div class="container-fluid">
+         <app-left-side></app-left-side>
+        <div class="middle">
+          <div class="messageSender"> 
+            <div class="msgTop">
+              <img class="user_avatar" src="assets/img/avatar.png">
+              <form>
+                <input type="text" class="msg_input" placeholder="Whta's on your mind?">
+              </form>
+            </div>
+            <div class="msgBottom">
+              <div class="msgOption">
+                <i class="fa-solid fa-video" style="color: red;"></i>
+                <h3>Live</h3>
+              </div>
+              <div class="msgOption">
+                <i class="fa-solid fa-images" style="color: green;"></i>
+                <h3>Photo</h3>
+              </div>
+              <div class="msgOption">
+                <i class="fa-solid fa-face-smile" style="color: orange;"></i>
+                <h3>Feeling</h3>
+              </div>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post_top">
+              <img class="user_avatar post_avatar" src="assets/img/avatar.png">
+              <div class="post_topinfo">
+                <h3>Mizanur Rahman</h3>
+                <p>1 July at 15:15</p>
+              </div>
+            </div>
+            <div class="post_bottom">
+              <p>Hi</p>
+            </div>
+            <div class="post_image">
+              <img src="assets/img/Story.JPG">
+            </div>
+            <div class="post_options">
+              <div class="post_option">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div class="post_option">
+                <i class="fa-solid fa-message"></i>
+                <p>Comment</p>
+              </div>
+              <div class="post_option">
+                <i class="fa-solid fa-share"></i>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_top">
+              <img class="user_avatar" src="assets/img/avatar.png">
+              <div class="post_topinfo">
+                <h3>Mizanur Rahman</h3>
+                <p>1 July at 15:15</p>
+              </div>
+            </div>
+            <div class="post_bottom">
+              <p>Hello</p>
+            </div>
+            <div class="post_options">
+              <div class="post_option">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div class="post_option">
+                <i class="fa-solid fa-message"></i>
+                <p>Comment</p>
+              </div>
+              <div class="post_option">
+                <i class="fa-solid fa-share"></i>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <app-right-side></app-right-side>
+       </div>
