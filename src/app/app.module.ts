@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RightSideComponent } from './right-side/right-side.component';
 import { LeftSideComponent } from './left-side/left-side.component';
+import { ProfileComponent } from './profile/profile.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     RightSideComponent,
-    LeftSideComponent
+    LeftSideComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
